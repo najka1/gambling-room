@@ -1,0 +1,296 @@
+body {
+    background-image:url("../photos/bg.png");
+  }
+  
+  #menu {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 3px 15px 2px;
+    width: 70%;
+    height: 50%;
+    border-radius: 10px;
+    background: #1d2233e0;
+  }
+  
+  #title {
+    margin: 0;
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Times New Roman";
+    color: black;
+    font-size: 90px;
+    text-shadow: 6px 2px black;
+  }
+  
+  .player,
+  .playerGame {
+    position: absolute;
+    text-align: center;
+    font-family: "Times New Roman";
+    color: #c3e3f1;
+    top: 15%;
+    font-size: 25px;
+    border: solid 2px #ffffff;
+    width: 22.5%;
+    height: 40%;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: #63435db6;
+  }
+  
+  .playerGame {
+    height: 48%;
+  }
+  
+  #playerOne {
+    left: 7%;
+  }
+  
+  #playerTwo {
+    left: 38%;
+  }
+  
+  #playerThree {
+    left: 69%;
+  }
+  
+  .playerInput {
+    width: 140px;
+    height: 22px;
+    position: relative;
+    top: 20%;
+    border: none;
+    background-color: #c3e3f1;
+    font-family: "Times New Roman";
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+  }
+  
+  .playerInput:focus,
+  #rounds:focus {
+    outline: none;
+  }
+  
+  #submit,
+  #results,
+  .roll {
+    position: absolute;
+    margin: 0;
+    top: 86%;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    background-color: #c90c0cbb;
+    border: none;
+    color: #c3e3f1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    font-family: "Helvetica";
+    cursor: pointer;
+  }
+  
+  .playerTitle {
+    position: relative;
+    top: 10%;
+  }
+  
+  #userOne,
+  #userTwo,
+  #userThree {
+    font-size: 33px;
+  }
+  
+  .score,
+  .rollsLeft {
+    position: relative;
+    top: 13%;
+    font-size: 20px;
+  }
+  
+  .rollsLeft {
+    top: 26%;
+  }
+  
+  .roll {
+    padding: 10px 20px;
+    font-size: 21px;
+    top: 115%;
+  }
+  
+  #results {
+    font-size: 21px;
+    top: 89%;
+    padding: 11px 32px;
+    opacity: 0;
+    cursor: default;
+  }
+  
+  .disabled {
+    cursor: not-allowed;
+    background-color: #aa8288;
+  }
+  
+  .dicePic {
+    position: relative;
+    top: 79%;
+  }
+  
+  .winners {
+    background: #c90c0cbb;
+    position: absolute;
+  }
+  
+  #second {
+    width: 20%;
+    height: 50%;
+    top: 50%;
+    left: 19%;
+  }
+  
+  #first {
+    width: 20%;
+    height: 80%;
+    top: 20%;
+    left: 40%;
+  }
+  
+  #third {
+    width: 20%;
+    height: 30%;
+    top: 70%;
+    left: 61%;
+  }
+  
+  .number {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Times New Roman";
+    color: white;
+    font-size: 80px;
+    top: 3%;
+  }
+  
+  .name {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Times New Roman";
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  #secondPlayer {
+    top: 30%;
+  }
+  
+  #firstPlayer {
+    top: 20%;
+  }
+  
+  #thirdPlayer {
+    top: 45%;
+  }
+  
+  #secondScore {
+    top: 45%;
+  }
+  
+  #firstScore {
+    top: 30%;
+  }
+  
+  #thirdScore {
+    top: 70%;
+  }
+  
+  #timeWrapper {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-family: "Times New Roman";
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: inline-table;
+  }
+  #time {
+    display: table-cell;
+  }
+  
+  #submit:hover,
+  .roll:hover,
+  #results:hover {
+    transition: 0.5s;
+    background-color: #63435d;
+  }
+  
+  #rounds,
+  #roundsTitle {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Times New Roman";
+    top: 25%;
+  }
+  
+  #rounds {
+    width: 60px;
+    height: 22px;
+    font-family: "Times New Roman";
+    top: 73%;
+    border: none;
+    background-color: #c3e3f1;
+    font-family: tahoma;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+  
+  #roundsWrapper {
+    position: absolute;
+    font-family: "Times New Roman";
+    color: #c3e3f1;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: #63435d;
+    width: 22.5%;
+    height: 15%;
+    left: 7%;
+    top: 77%;
+    font-size: 18.5px;
+  }
+  
+  #diceWrapper {
+    position: absolute;
+    font-family: "Times New Roman";
+    color: #ffffff;
+    border: solid 4px #c90c0cbb;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: #63435d;
+    width: 22.5%;
+    height: 15%;
+    left: 69%;
+    top: 77%;
+    font-size: 18.5px;
+  }
+  
+  input,
+  select {
+    text-align: center;
+  }
+  
