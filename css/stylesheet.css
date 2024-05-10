@@ -12,7 +12,7 @@ body {
     width: 70%;
     height: 50%;
     border-radius: 10px;
-    background: #1d2233e0;
+    background-color: #808080;
   }
   
   #title {
@@ -24,7 +24,7 @@ body {
     font-family: "Times New Roman";
     color: black;
     font-size: 90px;
-    text-shadow: 6px 2px black;
+    font-weight: bold;
   }
   
   .player,
@@ -32,7 +32,7 @@ body {
     position: absolute;
     text-align: center;
     font-family: "Times New Roman";
-    color: #c3e3f1;
+    color: white;
     top: 15%;
     font-size: 25px;
     border: solid 2px #ffffff;
@@ -40,7 +40,7 @@ body {
     height: 40%;
     border-radius: 10px;
     font-weight: 700;
-    background-color: #63435db6;
+    background-color: black;
   }
   
   .playerGame {
@@ -86,9 +86,9 @@ body {
     left: 50%;
     border-radius: 5px;
     transform: translate(-50%, -50%);
-    background-color: #c90c0cbb;
+    background-color: 	#D3D3D3;
     border: none;
-    color: #c3e3f1;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -136,7 +136,7 @@ body {
   
   .disabled {
     cursor: not-allowed;
-    background-color: #aa8288;
+    background-color: 	#A9A9A9;
   }
   
   .dicePic {
@@ -266,7 +266,7 @@ body {
     border: solid 2px #ffffff;
     border-radius: 10px;
     font-weight: 700;
-    background-color: #63435d;
+    background-color: 	#D3D3D3;
     width: 22.5%;
     height: 15%;
     left: 7%;
@@ -278,10 +278,10 @@ body {
     position: absolute;
     font-family: "Times New Roman";
     color: #ffffff;
-    border: solid 4px #c90c0cbb;
+    border: solid 4px #D3D3D3;
     border-radius: 10px;
     font-weight: 700;
-    background-color: #63435d;
+    background-color: 	#D3D3D3;
     width: 22.5%;
     height: 15%;
     left: 69%;

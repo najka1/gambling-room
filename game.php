@@ -25,11 +25,11 @@
 	<div id="menu">			
 		<div id="playerOne" class="playerGame">
 				<div class="playerTitle"><?php echo $_SESSION["userOne"]; ?><br /><br></div>	
-				<div class="score">Score:</div>
+				<div class="score">Rezultat:</div>
 				<div id="scoreOne" class="score">0</div>
-				<div class="rollsLeft">Throws:</div>
+				<div class="rollsLeft">Meti:</div>
 				<div class="rollsLeft" id="rollsLeftOne"><?php echo $_SESSION["rollsLeftOne"] ?></div>
-				<input id="rollBtnOne" type="submit" class="roll" value="Throw" onclick="rollOne();"></input>
+				<input id="rollBtnOne" type="submit" class="roll" value="Vrzi" onclick="rollOne();"></input>
 				<canvas id="dicePicOne" class="dicePic" width="50" height="50"></canvas>
 				<canvas id="dicePicOne2" class="dicePic" width="50" height="50"></canvas>
 				<canvas id="dicePicOne3" class="dicePic" width="50" height="50"></canvas>
@@ -37,11 +37,11 @@
 		
 		<div id="playerTwo" class="playerGame">
 				<div class="playerTitle"><?php echo $_SESSION["userTwo"]; ?><br /><br></div>	
-				<div class="score">Score:</div>
+				<div class="score">Rezultat:</div>
 				<div id="scoreTwo" class="score">0</div>
-				<div class="rollsLeft">Throws:</div>
+				<div class="rollsLeft">Meti:</div>
 				<div class="rollsLeft" id="rollsLeftTwo"><?php echo $_SESSION["rollsLeftTwo"] ?></div>
-				<input id="rollBtnTwo" type="submit" class="roll disabled" value="Throw" onclick="rollTwo();" disabled></input>
+				<input id="rollBtnTwo" type="submit" class="roll disabled" value="Vrzi" onclick="rollTwo();" disabled></input>
 				<canvas id="dicePicTwo" class="dicePic" width="50" height="50"></canvas>
 				<canvas id="dicePicTwo2" class="dicePic" width="50" height="50"></canvas>
 				<canvas id="dicePicTwo3" class="dicePic" width="50" height="50"></canvas>
@@ -49,11 +49,11 @@
 		
 		<div id="playerThree" class="playerGame">
 				<div class="playerTitle"><?php echo $_SESSION["userThree"]; ?><br /><br></div>	
-				<div class="score">Score:</div>
+				<div class="score">Rezultat:</div>
 				<div id="scoreThree" class="score">0</div>
-				<div class="rollsLeft">Throws</div>
+				<div class="rollsLeft">Meti:</div>
 				<div class="rollsLeft" id="rollsLeftThree"><?php echo $_SESSION["rollsLeftThree"] ?></div>
-				<input id="rollBtnThree" type="submit" class="roll disabled" value="Throw" onclick="rollThree();" disabled></input>
+				<input id="rollBtnThree" type="submit" class="roll disabled" value="Vrzi" onclick="rollThree();" disabled></input>
 				<canvas id="dicePicThree" class="dicePic" width="50" height="50"></canvas>
 				<canvas id="dicePicThree2" class="dicePic" width="50" height="50"></canvas>
 				<canvas id="dicePicThree3" class="dicePic" width="50" height="50"></canvas>
