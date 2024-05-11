@@ -20,26 +20,42 @@
 	<title>Gambling Room</title>
 </head>
 <body>
-	<div id="title">Rezultati</div>
-	<div id="menu">				
-		<div id="second" class="winners">
-			<div class="number" id="numberTwo" >2</div><br />
-			<div class="name" id="secondPlayer"></div>
-			<div class="name" id="secondScore"></div>
+	<div id="glavni">
+		<div id="title">Rezultati</div>
+		<div id="menu">				
+			<div id="second" class="winners">
+				<div class="number" id="numberTwo" >2</div><br />
+				<div class="name" id="secondPlayer"></div>
+				<div class="name" id="secondScore"></div>
+			</div>
+			<div id="first" class="winners">
+				<div class="number" id="numberOne" >1</div><br />
+				<div class="name" id="firstPlayer"></div>
+				<div class="name" id="firstScore"></div>
+			</div>
+			<div id="third" class="winners">
+				<div class="number" id="numberThree" >3</div><br />
+				<div class="name" id="thirdPlayer"></div>
+				<div class="name" id="thirdScore"></div>
+			</div>
 		</div>
-		<div id="first" class="winners">
-			<div class="number" id="numberOne" >1</div><br />
-			<div class="name" id="firstPlayer"></div>
-			<div class="name" id="firstScore"></div>
+		
+		<div class="cas">Preusmeritev na začetek čez
+			<span id="cas">10</span>
 		</div>
-		<div id="third" class="winners">
-			<div class="number" id="numberThree" >3</div><br />
-			<div class="name" id="thirdPlayer"></div>
-			<div class="name" id="thirdScore"></div>
-		</div>
-	</div>
+		<script> 
+			function redirTimer() { self.setTimeout("self.location.href='index.php';", 10000);}
+			redirTimer();
+
+			var seconds_left=10;
+			setInterval(function(){
+				document.getElementById('cas').innerHTML= --seconds_left;
+				
+			}, 1000);
 	
-	<?php include 'scripts/finish.php';?>
+		</script> 
+	</div>
+	<?php include 'script/finish.php';?>
 </body>
 
 </html>

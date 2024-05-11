@@ -3,8 +3,8 @@
 
 <head>
     <title>Gambling room</title>
-    <link rel="stylesheet" href="css/style.css">
-	<link rel="shortcut icon" type="favicon.ico" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="favicon.ico" href="slike/gambling.png" />
 </head>
 
 
@@ -27,25 +27,19 @@
 					<div class="playerTitle">UPORABNIK 3:<br /></div>
 					<input id="player2" autocomplete="off" maxlength='11' type="text" class="playerInput" name="userThree" required placeholder="Maja"></input>
 				</div><br />
+				
 				<div id="roundsWrapper">
-				<br />
-
-					<label for="kocke">Število kock:</label>
-					<select id="kocke" name="kocke">
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-					</select>
-
-					<label for="igre">Število iger:</label>
-					<select id="igre" name="igre">
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-					</select>
+					<div id="roundsTitle">Število metov:</div>
+						<select name="rolls" id="rounds">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+						</select>
+					</div>
 				</div>
 				<br />
-				<input type="submit" id="submit" value="START"></input>
+				<input type="submit" value="START"></input>
 				
 			</form>
 		
@@ -55,7 +49,8 @@
 	</div>
 	<br>
 	<img src="slike/kocke.jpeg" alt="kocke" id="slikakocke">
+	
+	<script src="script/input.js"></script>
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>

@@ -60,10 +60,10 @@
 		</div>
 		
 		<form action="results.php">
-			<input type="submit" id="results" value="RESULTS" disabled></input>
+			<input type="submit" id="results" value="REZULTATI" disabled></input>
 		</form>
 		
 	</div>	
-	<?php include 'scripts/script.php';?>
+	<?php include 'script/script.php';?>
 </body>	
 </html>
