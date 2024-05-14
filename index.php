@@ -28,17 +28,27 @@
 					<input id="player2" autocomplete="off" maxlength='11' type="text" class="playerInput" name="userThree" required placeholder="Maja"></input>
 				</div><br />
 				
-				<div id="roundsWrapper">
-					<div id="roundsTitle">Število metov:</div>
-						<select name="rolls" id="rounds">
-							<option value="1">1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-						</select>
+				<div id="parametri">
+					<div id="roundsWrapper">
+						<div id="roundsTitle"> Število metov: </div>
+							<select name="rolls" id="rounds">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+							</select>
+						
+					</div><div id="diceWrapper">
+						<div id="diceTitle"> Število kock: </div>
+							<select name="dice" id="dice">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+							</select>
+						</div>
 					</div>
 				</div>
-				<br />
 				<input type="submit" value="START"></input>
 				
 			</form>

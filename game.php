@@ -6,6 +6,7 @@
 	$_SESSION["rollsLeftOne"] = $_POST["rolls"];
 	$_SESSION["rollsLeftTwo"] = $_POST["rolls"];
 	$_SESSION["rollsLeftThree"] = $_POST["rolls"];
+	$_SESSION["stevKoc"] = $_POST["stKock"];
 	$_SESSION["userOne"] = $_POST["userOne"];
 	$_SESSION["userTwo"] = $_POST["userTwo"];
 	$_SESSION["userThree"] = $_POST["userThree"];	

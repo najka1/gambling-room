@@ -29,6 +29,18 @@ h1{
 	padding: 20px;
 }
 
+#parametri{
+	display: inline-flex;
+}
+
+#roundsWrapper{
+	padding: 8px;
+}
+
+#diceWrapper{
+	padding: 8px;
+}
+
 #slikakocke{
 	height: 200px;
 	margin-left: auto;
