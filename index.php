@@ -44,12 +44,11 @@
 								<option value="1">1</option>
 								<option value="2">2</option>
 								<option value="3">3</option>
-								<option value="4">4</option>
 							</select>
 						</div>
 					</div>
 				</div>
-				<input type="submit" value="START"></input>
+				<input type="submit" name="start" value="START"></input>
 				
 			</form>
 		
