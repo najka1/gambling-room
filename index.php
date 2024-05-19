@@ -1,65 +1,58 @@
 <!DOCTYPE html>
-<html lang="sl">
-
-<head>
-    <title>Gambling room</title>
-    <link rel="stylesheet" href="style.css">
-	<link rel="shortcut icon" type="favicon.ico" href="slike/gambling.png" />
-</head>
-
-
-<body>
-    <div id="naslov">
-        <h1>WELCOME to GAMBLING ROOM</h1>
-    </div>
-	<div class="glavni">
-    	<div class="uporabniki">
-			<form action="game.php" method="post">
-				<div id="playerOne" class="player">
-					<div class="playerTitle">UPORABNIK 1:<br /></div>				
-					<input id="player0" autocomplete="off" maxlength='11' type="text" class="playerInput" name="userOne" required placeholder="Janez"></input>
-				</div><br />
-				<div id="playerTwo" class="player">
-					<div class="playerTitle">UPORABNIK 2:<br /></div>
-					<input id="player1" autocomplete="off" maxlength='11' type="text" class="playerInput" name="userTwo" required placeholder="Tina"></input>
-				</div><br />
-				<div id="playerThree" class="player">
-					<div class="playerTitle">UPORABNIK 3:<br /></div>
-					<input id="player2" autocomplete="off" maxlength='11' type="text" class="playerInput" name="userThree" required placeholder="Maja"></input>
-				</div><br />
-				
-				<div id="parametri">
-					<div id="roundsWrapper">
-						<div id="roundsTitle"> Število metov: </div>
-							<select name="rolls" id="rounds">
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-							</select>
-						
-					</div><div id="diceWrapper">
-						<div id="diceTitle"> Število kock: </div>
-							<select name="dice" id="dice">
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-							</select>
-						</div>
-					</div>
-				</div>
-				<input type="submit" name="start" value="START"></input>
-				
-			</form>
-		
-    	</div>
-		<br>
-	
-	</div>
-	<br>
-	<img src="slike/kocke.jpeg" alt="kocke" id="slikakocke">
-	
-	<script src="script/input.js"></script>
-</body>
-
+<html>
+    <head>
+        <title>Gambling Room</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="img/gambling.png">
+    </head>
+    <body>
+        <h1>GAMBLING ROOM</h1>
+        <div class="main">
+            <form name="game" action="game.php" method="POST" autocomplete="off">
+                <ul id="pl">
+                    <li>
+                        <div class="players">
+                            <h3 class="top">PRVI</h3>
+                            <h3 class="bottom">UPORABNIK</h3>
+                            <input type="text" name="play1" class="player" required>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="players">
+                            <h3 class="top">DRUGI</h3>
+                            <h3 class="bottom">UPORABNIK</h3>
+                            <input type="text" name="play2" class="player" required>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="players">
+                            <h3 class="top">TRETJI</h3>
+                            <h3 class="bottom">UPORABNIK</h3>
+                            <input type="text" name="play3" class="player" required>
+                        </div>
+                    </li>
+                </ul><br>
+                        <div class="rules">
+                            <br><br><span class="dice1">ŠTEVILO KOCK</span>
+                            <select name="dice">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <br>
+                            <span class="turns1">ŠTEVILO METOV</span>
+                            <select name="turns">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <br>
+                        </div>
+                
+                <br><input type="submit" id="start" name="start" value="IGRAJ">
+            </form>
+        </div>
+    </body>
 </html>

@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{
+    background-color: #DCDCDC;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+    text-shadow: 4px 4px 4px #808080;
+}
+.main{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+table{
+    margin: auto;
+    height: 600px;
+    width: 1000px;
+}
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#td1 {
+    background-color: rgb(27, 27, 27);
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+#td2 {
+    background-color: rgb(27, 27, 27);
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+#td3 {
+    background-color: rgb(27, 27, 27);
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example1 {
+    from {
+        margin-top: 200px;
+        height: 400px;
+    }
+    to {
+        margin-top: 100px;
+        height: 500px;
+    }
+}
+
+
+@keyframes example3 {
+    from {
+        height: 450px;
+        margin-top: 150px;
+    }
+    to {
+        margin-top: 50px;
+        height: 550px;
+    }
+}
+
+@keyframes example2 {
+    from {
+        margin-top: 100px;
+        height: 500px;
+    }
+    to {
+        margin-top: 0px;
+        height: 600px;
+    }
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+h3{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 40px;
+}
+h4{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+h5{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 23px;
+}
