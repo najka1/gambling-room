@@ -36,7 +36,7 @@
                   <div class=\"dic\">
                       <div class=\"di\">";
             foreach ($p1Met as $throw) {
-                echo "<img src='img/".$throw.".jpg'>";
+                echo "<img src='img/".$throw.".png'>";
             }
             echo "</div>
                   </div>";
@@ -61,7 +61,7 @@
                   <div class=\"dic\">
                       <div class=\"di\">";
             foreach ($p2Met as $throw) {
-                echo "<img src='img/".$throw.".jpg'>";
+                echo "<img src='img/".$throw.".png'>";
             }
             echo "</div>
                   </div>";
@@ -86,7 +86,7 @@
                   <div class=\"dic\">
                       <div class=\"di\">";
             foreach ($p3Met as $throw) {
-                echo "<img src='img/".$throw.".jpg'>";
+                echo "<img src='img/".$throw.".png'>";
             }
             echo "</div>
                   </div>";

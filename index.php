@@ -33,13 +33,12 @@
                     </li>
                 </ul><br>
                         <div class="rules">
-                            <br><br><span class="dice1">ŠTEVILO KOCK</span>
+                            <br><span class="dice1">ŠTEVILO KOCK</span>
                             <select name="dice">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                             </select>
-                            <br>
                             <span class="turns1">ŠTEVILO METOV</span>
                             <select name="turns">
                                 <option value="1">1</option>
