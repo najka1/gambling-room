@@ -13,8 +13,11 @@
     <title>Gambling Room</title>
     <link rel="stylesheet" href="end.css">
     <link rel="icon" type="image/x-icon" href="img/gambling.png">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="jquery.fireworks.js"></script>
 </head>
 <body>
+    <div id="fireworks"></div>
     <h1>ČESTITKE</h1>
     <div class="main">
         <table>
@@ -44,18 +47,30 @@
         </table>
     </div>
     <h5 id="cnt">You can roll again in 10</h5>
-</body>
-<script>
-    document.addEventListener('DOMContentLoaded', function(){
-        const a=document.getElementById("cnt");
-        i=10;
-        setInterval(function(){
-            i--;
-            a.innerText="You can roll again in "+i;
-            if(i==0){
-                window.location.href = 'index.php';
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const a = document.getElementById("cnt");
+            let i = 10;
+            setInterval(function() {
+                i--;
+                a.innerText = "You can roll again in " + i;
+                if (i === 0) {
+                    window.location.href = 'index.php';
+                }
+            }, 1000);
+
+            function checkWinnerAndFireworks() {
+                $('#fireworks').fireworks({
+                    sound: false,
+                    opacity: 0.9,
+                    width: '100%',
+                    height: '100%'
+                });
             }
-        },1000)
-    });
-</script>
+
+            checkWinnerAndFireworks();
+        });
+    </script>
+</body>
+
 </html>
