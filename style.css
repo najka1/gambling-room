@@ -4,14 +4,17 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
-    background-color: #DCDCDC;
+    background-image: url(img/ozadje.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
     font-family: sans-serif;
 }
 h1{
+    color: #1d4441;
     text-align: center;
     font-size: 70px;
     margin-top: 50px;
-    text-shadow: 4px 4px 4px #808080;
+    text-shadow: 4px 4px 4px #f4ebe6;
     width: 1000px;
     position: absolute;
     left: 50%;
@@ -22,7 +25,7 @@ h1{
 .main{
     width: 1100px;
     height: 530px;
-    background-color: #808080;
+    background-color: #f4ebe6;
     margin: auto;
     margin-top: 240px;
     box-shadow: 5px 5px 5px black;
@@ -43,14 +46,14 @@ h1{
     border-radius: 10px;
     width: 300px;
     height: 270px;
-    background-color: rgb(27, 27, 27);
+    background-color: #1d4441;
     padding-top: 10px;
 }
 .rules{
     border-radius: 10px;
     width: 1040px;
     height: 90px;
-    background-color: rgb(27, 27, 27);
+    background-color: #1d4441;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -159,7 +162,7 @@ select option[value="5"] {
     height: 50px;
 	display:block;
 	margin: auto;
-    background-color: rgb(170, 23, 23);
+    background-color:#e63b2f;
     outline: none;
     color: white;
     border: none;
@@ -172,7 +175,7 @@ select option[value="5"] {
 	margin: auto;
     background-color: transparent;
     outline: none;
-    color: white;
+    color: black;
     border: 2px solid rgb(170, 23, 23);
     font-size: 25px;
 }

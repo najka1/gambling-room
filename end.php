@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gambling Room</title>
-    <link rel="stylesheet" href="zadnji.css">
+    <link rel="stylesheet" href="end.css">
     <link rel="icon" type="image/x-icon" href="img/gambling.png">
 </head>
 <body>
