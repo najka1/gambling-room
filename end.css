@@ -108,7 +108,8 @@ h5{
     font-size: 23px;
 }
 #cnt{
-    color: black;
+    color: #f4ebe6;
+    text-shadow: 4px 4px 4px #1d4441;
 }
 #fireworks {
     position: fixed;
